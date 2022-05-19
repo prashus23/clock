@@ -107,9 +107,18 @@ function digitalClock(digitTime,date){
             monthStr = "JUN";
             break;
         case 6:
-            monthStr = "AUG";
+            monthStr = "JUL";
             break;
         case 7:
+            monthStr = "AUG";
+        case 8:
+            monthStr = "SEP";
+        case 9:
+            monthStr = "OCT";
+        case 10:
+            monthStr = "NOV";
+        case 11:
+            monthStr = "DEC";
 
     }
 
