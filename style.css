@@ -57,7 +57,7 @@ body{
     align-items: center;
 }
 
-#hour,#minute,#second{
+#minute,#second{
     position: relative;
     background-color: var(--primary-color);
     border-radius: 10px;
@@ -65,17 +65,21 @@ body{
 }
 
 #hour{
-    width: 1%;
-    height: 18%;
-    top: 61%;
-    left: 49.7%;
+    position: relative;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    transform-origin: bottom;
+    width: 1.2%;
+    height: 13%;
+    top: 47%;
+    left: 49.2%;
     /* opacity: 0.8; */
 }
 
 #minute{
-    width: 1.2%;
-    height: 25%;
-    top: 36%;
+    width: 1%;
+    height: 21%;
+    top: 26.5%;
     left: 48.8%;
     /* opacity: 0.8; */
 }
@@ -83,19 +87,19 @@ body{
 #second{
     background-color: #e74c3c;
     width: 1%;
-    height: 34%;
-    top: 3%;
-    left: 49.1%;
+    height: 24%;
+    top: 2.1%;
+    left: 48.8%;
     /* opacity: 0.8; */
 }
 
 #center{
     background-color: #e74c3c;
-    width: 3.2%;
+    width: 2%;
     height: 4.5%;
     position: relative;
     /* top: 48.5%; */
-    left: 47.9%;
+    left: 48.4%;
     border-radius: 50%;
 }
 
